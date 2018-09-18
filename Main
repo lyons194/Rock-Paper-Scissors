@@ -1,0 +1,78 @@
+#Initial draft
+if 1:
+	a = 0
+	b = {}
+	while a < 3:
+		r = input("Rock, Paper, or Scissors?: ")
+		if r == "Rock":
+			import random
+			guess1 = random.random()
+			if guess1 < 0.3333:
+				print("Rock.")
+				a = a + 1
+			elif 0.3334< guess1 < 0.6666:
+				print("Paper.")
+				a = a + 1
+			elif guess1 > 0.6667:
+				print("Scissors.")
+				a = a + 1
+		if r == "rock":
+			import random
+			guess1 = random.random()
+			if guess1 < 0.3333:
+				print("Rock.")
+				a = a + 1
+			elif 0.3334< guess1 < 0.6666:
+				print("Paper.")
+				a = a + 1
+			elif guess1 > 0.6667:
+				print("Scissors.")
+				a = a + 1
+		if r == "Paper":
+			import random
+			guess1 = random.random()
+			if guess1 < 0.3333:
+				print("Rock.")
+				a = a + 1
+			elif 0.3334< guess1 < 0.6666:
+				print("Paper.")
+				a = a + 1
+			elif guess1 > 0.6667:
+				print("Scissors.")
+				a = a + 1
+		if r == "paper":
+			import random
+			guess1 = random.random()
+			if guess1 < 0.3333:
+				print("Rock.")
+				a = a + 1
+			elif 0.3334< guess1 < 0.6666:
+				print("Paper.")
+				a = a + 1
+			elif guess1 > 0.6667:
+				print("Scissors.")
+				a = a + 1
+		if r == "Scissors":
+			import random
+			guess1 = random.random()
+			if guess1 < 0.3333:
+				print("Rock.")
+				a = a + 1
+			elif 0.3334< guess1 < 0.6666:
+				print("Paper.")
+				a = a + 1
+			elif guess1 > 0.6667:
+				print("Scissors.")
+				a = a + 1
+		if r == "scissors":
+			import random
+			guess1 = random.random()
+			if guess1 < 0.3333:
+				print("Rock.")
+				a = a + 1
+			elif 0.3334< guess1 < 0.6666:
+				print("Paper.")
+				a = a + 1
+			elif guess1 > 0.6667:
+				print("Scissors.")
+				a = a + 1
