@@ -258,3 +258,6 @@ if 1:
 					print(" ")
 					a = a + 1
 			#Note: End of program.
+			"""A subsequent version of this program will have the computer ask whether the user
+			would want to play the game in a best-two-out-of-three fashion, and\or a best-three-out-of-five
+			fashion."""
