@@ -76,3 +76,185 @@ if 1:
 			elif guess1 > 0.6667:
 				print("Scissors.")
 				a = a + 1
+"""End of this draft of Rock, Paper Scissors.
+Below is an updated version, created on September 20, 2018."""
+if 1:
+		a = 0
+		b = {}
+		while a < 3:
+			r = input("Rock, Paper, or Scissors?: ")
+			if r == "Rock":
+				import random
+				guess1 = random.random()
+				if guess1 < 0.3333:
+					print(" ")
+					print(" ")
+					print("Computer plays: Rock.")
+					print(" ")
+					print("---------------> Tie.  Neither party wins this round.")
+					print(" ")
+					print(" ")
+					a = a + 1
+				elif 0.3334< guess1 < 0.6666:
+					print(" ")
+					print(" ")
+					print("Computer plays: Paper.")
+					print(" ")
+					print("---------------> Paper beats Rock.  Computer wins this round.")
+					print(" ")
+					print(" ")
+					a = a + 1
+				elif guess1 > 0.6667:
+					print(" ")
+					print(" ")
+					print("Computer plays: Scissors.")
+					print(" ")
+					print("---------------> Rock beats Scissors.  You win this round.")
+					print(" ")
+					print(" ")
+					a = a + 1
+			if r == "rock":
+				import random
+				guess1 = random.random()
+				if guess1 < 0.3333:
+					print(" ")
+					print(" ")
+					print("Computer plays: Rock.")
+					print(" ")
+					print("---------------> Tie.  Neither party wins this round.")
+					print(" ")
+					print(" ")
+					a = a + 1
+				elif 0.3334< guess1 < 0.6666:
+					print(" ")
+					print(" ")
+					print("Computer plays: Paper.")
+					print(" ")
+					print("---------------> Paper beats Rock.  Computer wins this round.")
+					print(" ")
+					print(" ")
+					a = a + 1
+				elif guess1 > 0.6667:
+					print("Computer plays: Scissors.")
+					print("---------------> Rock beats Scissors.  You win this round.")
+					a = a + 1
+			if r == "Paper":
+				import random
+				guess1 = random.random()
+				if guess1 < 0.3333:
+					print(" ")
+					print(" ")
+					print("Computer plays: Rock.")
+					print(" ")
+					print("---------------> Paper beats Rock.  You win this round.")
+					print(" ")
+					print(" ")
+					a = a + 1
+				elif 0.3334< guess1 < 0.6666:
+					print(" ")
+					print(" ")
+					print("Computer plays: Paper.")
+					print(" ")
+					print("---------------> Tie.  Neither party wins this round.")
+					print(" ")
+					print(" ")
+					a = a + 1
+				elif guess1 > 0.6667:
+					print(" ")
+					print(" ")
+					print("Computer plays: Scissors.")
+					print(" ")
+					print("---------------> Scissors beats Paper.  Computer wins this round.")
+					print(" ")
+					print(" ")
+					a = a + 1
+			if r == "paper":
+				import random
+				guess1 = random.random()
+				if guess1 < 0.3333:
+					print(" ")
+					print(" ")
+					print("Computer plays: Rock.")
+					print(" ")
+					print("---------------> Paper beats Rock. You win this round.")
+					print(" ")
+					print(" ")
+					a = a + 1
+				elif 0.3334< guess1 < 0.6666:
+					print(" ")
+					print(" ")
+					print("Computer plays: Paper.")
+					print(" ")
+					print("---------------> Tie.  Neither party wins this round.")
+					print(" ")
+					print(" ")
+					a = a + 1
+				elif guess1 > 0.6667:
+					print(" ")
+					print(" ")
+					print("Computer plays: Scissors.")
+					print(" ")
+					print("---------------> Scissors beats paper.  Computer wins this round.")
+					print(" ")
+					print(" ")
+					a = a + 1
+			if r == "Scissors":
+				import random
+				guess1 = random.random()
+				if guess1 < 0.3333:
+					print(" ")
+					print(" ")
+					print("Computer plays: Rock.")
+					print(" ")
+					print("---------------> Rock beats Scissors.  Computer wins this round.")
+					print(" ")
+					print(" ")
+					a = a + 1
+				elif 0.3334< guess1 < 0.6666:
+					print(" ")
+					print(" ")
+					print("Computer plays: Paper.")
+					print(" ")
+					print("---------------> Scissors beats paper.  You win this round.")
+					print(" ")
+					print(" ")
+					a = a + 1
+				elif guess1 > 0.6667:
+					print(" ")
+					print(" ")
+					print("Computer plays: Scissors.")
+					print(" ")
+					print(" ")
+					print("---------------> Tie. Neither party wins this round.")
+					a = a + 1
+			if r == "scissors":
+				import random
+				guess1 = random.random()
+				if guess1 < 0.3333:
+					print(" ")
+					print(" ")
+					print("Computer plays: Rock.")
+					print(" ")
+					print("---------------> Rock beats Scissors.  Computer wins this round.")
+					print(" ")
+					print(" ")
+					a = a + 1
+				elif 0.3334< guess1 < 0.6666:
+					print(" ")
+					print(" ")
+					print("Computer plays: Paper.")
+					print(" ")
+					print("---------------> Scissors beats paper.  You win this round.")
+					print(" ")
+					print(" ")
+					a = a + 1
+				elif guess1 > 0.6667:
+					print(" ")
+					print(" ")
+					print("Computer plays: Scissors.")
+					print(" ")
+					print("---------------> Tie.  Neither party wins this round.")
+					print(" ")
+					print(" ")
+					a = a + 1
+			#Note: End of program.
