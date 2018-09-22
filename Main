@@ -56,8 +56,13 @@ if 1:
 					print(" ")
 					a = a + 1
 				elif guess1 > 0.6667:
+					print(" ")
+					print(" ")
 					print("Computer plays: Scissors.")
+					print(" ")
 					print("---------------> Rock beats Scissors.  You win this round.")
+					print(" ")
+					print(" ")
 					a = a + 1
 			if r == "Paper":
 				import random
@@ -145,8 +150,9 @@ if 1:
 					print(" ")
 					print("Computer plays: Scissors.")
 					print(" ")
-					print(" ")
 					print("---------------> Tie. Neither party wins this round.")
+					print(" ")
+					print(" ")
 					a = a + 1
 			if r == "scissors":
 				import random
