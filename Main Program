@@ -512,7 +512,6 @@ if 1:
 #Program update: 10-04-2018.
 if 1:
 		a = 0
-		b = {}
 		print(" ")
 		print(" ")
 		print(" ")
