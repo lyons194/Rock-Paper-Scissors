@@ -784,4 +784,3 @@ if 1:
 					print("Congratulations!  You win Rock, Paper, Scissors!")
 				elif c_win == 2:
 					print("Computer wins Rock, Paper, Scissors!")
-					#End of the program for now.
