@@ -1,1 +1,22 @@
-#Here I will post notes regarding how I want to change the program in future drafts.
+**Here I will post notes regarding how I want to change the program in future drafts.
+
+Tasks to be completed in future drafts of this program:
+
+1.) Make sure that the spacing of the display words is standardized and is aesthetically pleasing.
+
+2.) Perhaps display the score in real time?
+
+3.) "3 out of 5" option?
+
+4.) Include an option to have the program play multiple games of Rock, Paper, Scissors (similar to initial prompt in my compound interest calculator.
+
+5.) If I modify the program to include multiple games, I should then include modifications that make the program artificially intelligent.
+
+	--> By doing so, the program will keep track of the user's answers and will use that data in order to attempt to predict what position the user will take, i.e., the program will likely become more difficult to the user who isn't aware of this feature.
+
+	-->  The computer will take two measurements into account: Grand Tally and Spree Tally.
+
+	-->  Grand Tally = Total plays user has made.
+
+	-->  Spree Tally = The last 10 plays the user has made.
+	
