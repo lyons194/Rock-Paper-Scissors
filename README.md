@@ -1,2 +1,2 @@
 # Rock-Paper-Scissors
-Rock, Paper, Scissors in Python!
+Rock, Paper, Scissors coded in Python!
