@@ -4,6 +4,11 @@
 #LAST UPDATED:  August 17, 2019.
 
 
+#Import modules section.
+import random
+
+
+#Defining the main() function.
 def main():
 	a = 0
 	c_win = 0
@@ -19,7 +24,6 @@ def main():
 	while a < 1:
 		r = input("Rock, Paper, or Scissors?: ")
 		if r == "Rock":
-			import random
 			guess1 = random.random()
 			if guess1 < 0.3333:
 				print("{0}Computer plays: Rock.{1}".format("\n"*5, "\n"*5))
@@ -36,7 +40,6 @@ def main():
 				a = a + 1
 				u_win = u_win + 1
 		if r == "rock":
-			import random
 			guess1 = random.random()
 			if guess1 < 0.3333:
 				print("{0}Computer plays: Rock.{1}---------------> Tie.  Neither party wins this round.{2}".format("\n"*5, "\n"*5, "\n"*5))
@@ -49,7 +52,6 @@ def main():
 				a = a + 1
 				u_win = u_win + 1
 		if r == "Paper":
-			import random
 			guess1 = random.random()
 			if guess1 < 0.3333:
 				print("{0}Computer plays: Rock.{1}---------------> Paper beats Rock.  You win this round.{2}".format("\n"*5, "\n"*5, "\n"*5))
@@ -62,7 +64,6 @@ def main():
 				a = a + 1
 				c_win = c_win + 1
 		if r == "paper":
-			import random
 			guess1 = random.random()
 			if guess1 < 0.3333:
 				print("{0}Computer plays: Rock.{1}---------------> Paper beats Rock. You win this round.{2}".format("\n"*5, "\n"*5, "\n"*5))
@@ -75,7 +76,6 @@ def main():
 				a = a + 1
 				c_win = c_win + 1
 		if r == "Scissors":
-			import random
 			guess1 = random.random()
 			if guess1 < 0.3333:
 				print("{0}Computer plays: Rock.{1}---------------> Rock beats Scissors.  Computer wins this round.{2}".format("\n"*5, "\n"*5, "\n"*5))
@@ -88,7 +88,6 @@ def main():
 			elif guess1 > 0.6667:
 				print("{0}Computer plays: Scissors.{1}---------------> Tie. Neither party wins this round.{2}".format("\n"*5, "\n"*5, "\n"*5))
 		if r == "scissors":
-			import random
 			guess1 = random.random()
 			if guess1 < 0.3333:
 				print("{0}Computer plays: Rock.{1}---------------> Rock beats Scissors.  Computer wins this round.{2}".format("\n"*5, "\n"*5, "\n"*5))
@@ -112,7 +111,6 @@ def main():
 			print("\n"*4)
 			r = input("Rock, Paper, or Scissors?: ")
 			if r == "Rock":
-				import random
 				guess1 = random.random()
 				if guess1 < 0.3333:
 					print("{0}Computer plays: Rock.{1}---------------> Tie.  Neither party wins this round.{2}".format("\n"*5, "\n"*5, "\n"*5))
@@ -125,7 +123,6 @@ def main():
 					a = a + 1
 					u_win = u_win + 1
 			if r == "rock":
-				import random
 				guess1 = random.random()
 				if guess1 < 0.3333:
 					print("{0}Computer plays: Rock.{1}---------------> Tie.  Neither party wins this round.{2}".format("\n"*5, "\n"*5, "\n"*5))
@@ -138,7 +135,6 @@ def main():
 					a = a + 1
 					u_win = u_win + 1
 			if r == "Paper":
-				import random
 				guess1 = random.random()
 				if guess1 < 0.3333:
 					print("{0}Computer plays: Rock.{1}---------------> Paper beats Rock.  You win this round.{2}".format("\n"*5, "\n"*5, "\n"*5))
@@ -151,7 +147,6 @@ def main():
 					a = a + 1
 					c_win = c_win + 1
 			if r == "paper":
-				import random
 				guess1 = random.random()
 				if guess1 < 0.3333:
 					print("{0}Computer plays: Rock.{1}---------------> Paper beats Rock. You win this round.{2}".format("\n"*5, "\n"*5, "\n"*5))
@@ -164,7 +159,6 @@ def main():
 					a = a + 1
 					c_win = c_win + 1
 			if r == "Scissors":
-				import random
 				guess1 = random.random()
 				if guess1 < 0.3333:
 					print("{0}Computer plays: Rock.{1}---------------> Rock beats Scissors.  Computer wins this round.{2}".format("\n"*5, "\n"*5, "\n"*5))
@@ -177,7 +171,6 @@ def main():
 				elif guess1 > 0.6667:
 					print("{0}Computer plays: Scissors.{1}---------------> Tie. Neither party wins this round.{2}".format("\n"*5, "\n"*5, "\n"*5))
 			if r == "scissors":
-				import random
 				guess1 = random.random()
 				if guess1 < 0.3333:
 					print("{0}Computer plays: Rock.{1}---------------> Rock beats Scissors.  Computer wins this round.{2}".format("\n"*5, "\n"*5, "\n"*5))
@@ -194,7 +187,6 @@ def main():
 					print("\n"*4)
 					r = input("Rock, Paper, or Scissors?: ")
 					if r == "Rock":
-						import random
 						guess1 = random.random()
 						if guess1 < 0.3333:
 							print("{0}Computer plays: Rock.{1}---------------> Tie.  Neither party wins this round.{2}".format("\n"*5, "\n"*5, "\n"*5))
@@ -207,7 +199,6 @@ def main():
 							a = a + 1
 							u_win = u_win + 1
 					if r == "rock":
-						import random
 						guess1 = random.random()
 						if guess1 < 0.3333:
 							print("{0}Computer plays: Rock.{1}---------------> Tie.  Neither party wins this round.{2}".format("\n"*5, "\n"*5, "\n"*5))
@@ -220,7 +211,6 @@ def main():
 							a = a + 1
 							u_win = u_win + 1
 					if r == "Paper":
-						import random
 						guess1 = random.random()
 						if guess1 < 0.3333:
 							print("{0}Computer plays: Rock.{1}---------------> Paper beats Rock.  You win this round.{2}".format("\n"*5, "\n"*5, "\n"*5))
@@ -233,7 +223,6 @@ def main():
 							a = a + 1
 							c_win = c_win + 1
 					if r == "paper":
-						import random
 						guess1 = random.random()
 						if guess1 < 0.3333:
 							print("{0}Computer plays: Rock.{1}---------------> Paper beats Rock. You win this round.{2}".format("\n"*5, "\n"*5, "\n"*5))
@@ -246,7 +235,6 @@ def main():
 							a = a + 1
 							c_win = c_win + 1
 					if r == "Scissors":
-						import random
 						guess1 = random.random()
 						if guess1 < 0.3333:
 							print("{0}Computer plays: Rock.{1}---------------> Rock beats Scissors.  Computer wins this round.{2}".format("\n"*5, "\n"*5, "\n"*5))
@@ -259,7 +247,6 @@ def main():
 						elif guess1 > 0.6667:
 							print("{0}Computer plays: Scissors.{1}---------------> Tie. Neither party wins this round.{2}".format("\n"*5, "\n"*5, "\n"*5))
 					if r == "scissors":
-						import random
 						guess1 = random.random()
 						if guess1 < 0.3333:
 							print("{0}Computer plays: Rock.{1}---------------> Rock beats Scissors.  Computer wins this round.{2}".format("\n"*5, "\n"*5, "\n"*5))
@@ -280,4 +267,3 @@ def main():
 #Conditional statement that triggers the program.
 if __name__ == '__main__':
     main()
-
